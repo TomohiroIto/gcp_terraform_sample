@@ -1,0 +1,29 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfbackend
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform local configuration directory
+.terraform/
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+*.tfplan.json
+
+# Terraform provider cache (if not handled by .terraform/)
+.terraform/plugins/
+
+# Terraform generated files
+*.tfvars.json
+*.tfvars
